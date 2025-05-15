@@ -39,6 +39,7 @@ public class Main {
         }
     }
 }
- 
+
+
 // tc - O(n+q) 
 // sc - O(n)
