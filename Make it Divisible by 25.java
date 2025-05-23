@@ -5,7 +5,7 @@ public class Main {
         int ops=0;
         int j=target.length()-1;
         for(int i=n.length()-1;i>=0;i--){
-            if(n.charAt(i)==target.charAt(j)){
+            if(n.charAt(i)==target.charAt(j)) {
                 j--;
                 if(j<0)break;
             }else ops++;
